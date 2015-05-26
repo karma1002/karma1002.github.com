@@ -59,6 +59,23 @@ title: "Donggi Kim"
     }
 ```
 
+    // 코드  2
+    #include <cstdio>  
+    {  
+        int a;  
+    }
+
+```
+// 코드  3
+
+#include <cstdio>
+
+{
+
+	int a;
+
+}
+```
 아래 내용은 코드가 제대로 구현되지 않아  
 https://stackedit.io/editor 의 내용을 그대로 복사한 것입니다.  
 
