@@ -71,7 +71,7 @@ title: "Donggi Kim"
             int a;  
         }
 
-아래 내용은 코드가 제대로 구현되지 않아 비교를 위해   
+아래 내용은 코드가 제대로 구현되지 않는 것 같아 비교를 위해   
 https://stackedit.io/editor 의 코드 부분 내용을 그대로 복사한 것입니다.  
 
 
