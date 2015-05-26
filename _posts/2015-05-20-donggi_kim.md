@@ -52,11 +52,11 @@ title: "Donggi Kim"
 | 내용21 | 내용22 | 내용23 | 내용24 |
 
 ```
-    // 코드  
-    #include <cstdio>  
-    {  
-        int a;  
-    }
+// 코드  
+ #include <cstdio>  
+  {  
+    int a;  
+  }
 ```
 
     // 코드  2
@@ -64,6 +64,12 @@ title: "Donggi Kim"
     {  
         int a;  
     }
+
+    // 코드  3
+        #include <cstdio>  
+        {  
+            int a;  
+        }
 
 아래 내용은 코드가 제대로 구현되지 않아 비교를 위해   
 https://stackedit.io/editor 의 코드 부분 내용을 그대로 복사한 것입니다.  
