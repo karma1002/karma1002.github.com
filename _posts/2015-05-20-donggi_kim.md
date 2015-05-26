@@ -54,8 +54,10 @@ title: "Donggi Kim"
 
 \`코드\`  
 
-    #include <ctdio>
-    내용내용
+    #include <cstdio>
+    {
+        int a;
+    }
 
 
 
