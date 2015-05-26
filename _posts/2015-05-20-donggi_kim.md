@@ -95,3 +95,95 @@ var bar = 0;
 > - about **Prettify** syntax highlighting [here][5],
 > - about **Highlight.js** syntax highlighting [here][6].
 
+
+
+아래는 html코드를 그대로 붙여넣은 것.
+
+    <h2 id="section">큰 제목</h2>
+
+<h1 id="section-1">작은 제목</h1>
+
+<h2 id="section-2">굵은 글씨 1</h2>
+
+<h3 id="section-3">굵은 글씨 2</h3>
+
+<h4 id="section-4">굵은 글씨 3</h4>
+
+<h5 id="section-5">굵은 글씨 4</h5>
+
+<h6 id="section-6">굵은 글씨 5</h6>
+
+<p><em>기울여쓰기(Italic)</em></p>
+
+<p><strong>굵게쓰기(Bold)</strong></p>
+
+<ul>
+  <li>바나나</li>
+  <li>사과</li>
+  <li>수박</li>
+</ul>
+
+<ol>
+  <li>banana</li>
+  <li>apple</li>
+  <li>watermelon</li>
+</ol>
+
+<ul>
+  <li>목록 안에 목록
+    <ul>
+      <li>또다시 리스트가
+        <ul>
+          <li>한단계 더 아래!</li>
+        </ul>
+      </li>
+      <li>한단계 위로!</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>이것이 인용입니다.
+인용인용~
+인용~</p>
+</blockquote>
+
+<p>인라인 링크 :  <a href="http://www.google.com/">Google</a></p>
+
+<p>참조 링크 : <a href="http://www.google.com/">Google</a>.</p>
+
+<p><img src="http://img.naver.net/static/www/u/2013/0731/nmms_224940510.gif" alt="Naver" />.</p>
+
+<p>표</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>항목 1</th>
+      <th>항목 2</th>
+      <th>항목 3</th>
+      <th>항목 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>내용 11</td>
+      <td>내용 12</td>
+      <td>내용 13</td>
+      <td>내용 14</td>
+    </tr>
+    <tr>
+      <td>내용 21</td>
+      <td>내용 22</td>
+      <td>내용 23</td>
+      <td>내용 24</td>
+    </tr>
+  </tbody>
+</table>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">//</span><span class="err">코드입니다</span><span class="o">.</span>
+    <span class="c1">#include&lt;stdio.h&gt;</span>
+    <span class="n">int</span> <span class="n">main</span> <span class="p">(</span><span class="n">void</span><span class="p">)</span>
+    <span class="p">{</span>
+	<span class="nb">printf</span><span class="p">(</span><span class="s2">&quot;hello world</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">);</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span></code></pre></div>
