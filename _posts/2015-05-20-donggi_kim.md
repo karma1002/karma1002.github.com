@@ -52,8 +52,7 @@ title: "Donggi Kim"
 | 내용21 | 내용22 | 내용23 | 내용24 |
 
 
-\`코드\`  
-
+    // 코드
     #include <cstdio>
     {
         int a;
