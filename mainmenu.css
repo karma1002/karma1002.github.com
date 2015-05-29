@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: '나눔고딕','NanumGothicWeb','Nanum Gothic','돋움',Dotum,Helvetica,Verdana,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+header {
+	height: 100px;
+	text-align: center;
+	background-color: yellow;
+}
+
+a {
+	text-decoration: none;
+	height: 100px;
+	font-size: 300%;
+	line-height: 100px;
+}
+
+nav {
+	height: 50px;
+}
+
+ul {
+	overflow: hidden;
+	width: 500px;
+	height: 100px;
+	margin: auto;
+}
+
+.odd li:nth-child(2n) { background-color: #76EAEE; }
+.odd li:nth-child(2n+1) { background-color: #76EE9A; }
+.even li:nth-child(2n) { background-color: #76EE9A; }
+.even li:nth-child(2n+1) { background-color: #76EAEE; }
+
+li {
+	list-style: none;
+	float: left;
+	padding: 0px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+li>span {
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;	
+}
+li>a {
+	display:block; width: 100%; height: 100px; padding 0px;}
+
+#lefttop { border-radius: 50px 0px 0px 0px; }
+#righttop { border-radius: 0px 50px 0px 0px; }
+#rightbottom { border-radius: 0px 0px 50px 0px; }
+#leftbottom { border-radius: 0px 0px 0px 50px; }
